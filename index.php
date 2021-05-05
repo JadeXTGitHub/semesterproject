@@ -105,7 +105,7 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">02</div>
-        <a class="blogcard" href="blog/" style="background-image: url('house.jpeg')">
+        <a class="blogcard" href="blog.html" style="background-image: url('house.jpeg')">
           <div>
             <h1>Taking a TOLL</h1>
             <p>My experiance building a Toll Brothers Home</p>
@@ -118,7 +118,7 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">03</div>
-        <a class="blogcard" href="blog/" style="background-image: url('glass.jpeg')">
+        <a class="blogcard" href="blog.html" style="background-image: url('glass.jpeg')">
           <div>
             <h1>My pandemic glass is half FULL</h1>
             <p>Positive changes in the face of COVID</p>
