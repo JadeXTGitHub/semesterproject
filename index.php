@@ -38,6 +38,7 @@
       JENNIFER THOMAS
     </span>
     &mdash; Wecome to my page &mdash;
+</name>
 </div>
 
 <!-- Background image 1 container -->
@@ -74,7 +75,7 @@
 <br>
 <br>
 </div>
-    </div>
+ 
 
 <!-- Background image 3 container BLOG -->
 <div class="bgimg3 display-container opacity-min" id="blog">
@@ -118,7 +119,7 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">03</div>
-        <a class="blogcard" href="blog.html" style="background-image: url('glass.jpeg')">
+        <a class="blogcard" href="blog.html" style="background-image: url('lass.jpeg')">
           <div>
             <h1>My pandemic glass is half FULL</h1>
             <p>Positive changes in the face of COVID</p>
