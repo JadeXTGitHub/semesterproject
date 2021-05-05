@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+  background: #ccc;
+  font-family: Quicksand, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  color: #444;
+}
+
+main {
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  margin: 2rem auto;
+  padding: 2.75rem;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  font-weight: normal;
+  color: #000;
+}
+
+h2 {
+  color: #47a;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #111;
+  font-size: 1.25rem;
+  margin-top: 0rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h3 span.dept {
+  color: #aaa;
+}
+
+h3 span.dept::before {
+  content: "";
+  border-left: 1px solid #ccc;
+  padding-left: 0.4rem;
+}
+
+h4 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h4 span.dates {
+  color: #888;
+  display: inline-block;
+  float: right;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: rgb(59, 48, 100);
+}
+
+a:hover {
+  color: rgb(31, 1, 51);
+}
+
+/* Date and Time Style */
+time {
+  display: inline-block;
+  min-width: 2rem;
+}
+
+/*Address Style */
+address {
+  font-style: normal;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.position {
+  margin-top: 0.75rem;
+  transition: opacity 0.7s;
+}
+
+/* Lists */ 
+.no-bullets,
+.no-bullets ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #000;
+  font-weight: bold;
+}
+.no-bullets ul {
+  font-weight: normal;
+}
+.no-bullets span {
+  color: #666;
+}
+
+#contact {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+#phone {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+#location {
+  font-size: 1.1rem;
+}
+
+#skills {
+  column-count: 2;
+}
+
+a,
+a:visited,
+a:link,
+a:active,
+a:focus,
+#skills label {
+  color: rgb(67, 0, 129);
+}
+
+#professional-experience {
+  position: relative;
+}
+
+main input {
+  position: absolute;
+  left: -10000px;
+}
+
+.educert {
+  display: flex;
+}
+.educert li {
+  flex: 1;
+  align-items: start;
+  justify-content: start;
+}
+
+#filters {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#filters > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: -0.5rem;
+  padding: 0.5rem;
+}
+
+#filters > ul > li > h3 {
+  margin: 0;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #395;
+  text-transform: uppercase;
+}
+
+#filters > ul > li > h3::before {
+  content: "\2610 ";
+  font-size: 1.2rem;
+}
+
+input:checked ~ div #filters > ul > li > h3::before {
+  content: "\2611 ";
+}
+
+#filters > ul:hover {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#filters > ul:hover ul {
+  list-style: none;
+  padding-left: 0;
+  display: block;
+  column-count: 4;
+}
+
+#filters > ul > li > ul {
+  position: relative;
+  top: 0;
+  right: 0;
+  display: none;
+  padding: 1rem;
+}
+
+label {
+  cursor: pointer;
+}
+
+input:checked ~ div section.position,
+input:checked ~ div #languages label {
+  opacity: 0.25;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+#contact-mini {
+  display: flex;
+  margin-top: 1rem;
+}
+
+#contact-mini > div {
+  font-size: 0.75rem;
+  flex: 1;
+}
+
+#contact-mini > div:nth-child(2) {
+  text-align: center;
+  flex: 2;
+}
+#contact-mini > div:last-child {
+  text-align: right;
+}
+
+input:checked ~ div #languages label[for]::before,
+input:not(:checked) ~ div #languages label[for]::before {
+  content: "";
+}
+
+#contact {
+  display: none;
+}
+
+@media all and (min-width: 630px) {
+  main {
+    max-width: 600px;
+  }
+  #contact-mini > div {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  main {
+    max-width: 920px;
+    display: flex;
+  }
+  main > div:first-child {
+    flex: 1;
+  }
+  main > div:last-child {
+    width: 21%;
+    margin-left: 4%;
+  }
+  #languages {
+    column-count: 1;
+  }
+  .educert {
+    display: block;
+  }
+  .educert > li:nth-child(n + 2) {
+    margin-top: 0.75rem;
+  }
+  #contact-mini {
+    display: none;
+  }
+  #contact {
+    display: block;
+  }
+  #email,
+  #website {
+    font-size: 0.9em;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+  main {
+    max-width: 1120px;
+  }
+  #email,
+  #website {
+    font-size: 1em !important;
+  }
+}
+
+@media print {
+  @page {
+    size: 900px;
+  }
+  html,
+  body {
+    background: #fff;
+    font-size: 16px;
+    width: 900px;
+  }
+  a,
+  a:visited,
+  a:link,
+  a:active,
+  a:focus,
+  #languages label {
+    text-decoration: none;
+    color: #000;
+  }
+  main {
+    margin: 0;
+    max-width: 920px;
+    display: flex;
+    box-shadow: none;
+  }
+  main > div:first-child {
+    flex: 1;
+  }
+  main > div:last-child {
+    width: 21%;
+    margin-left: 4%;
+  }
+  #filters {
+    display: none;
+  }
+  #languages {
+    column-count: 1;
+  }
+  .educert {
+    display: block;
+  }
+  .educert > li:nth-child(n + 2) {
+    margin-top: 0.75rem;
+  }
+  .position {
+    opacity: 1 !important;
+  }
+  #contact-mini {
+    display: none;
+  }
+  #contact {
+    display: block;
+  }
+}
+  /* Social icon footer */
+ 
+
+  
+  .footercenter {
+    margin: auto;
+    width: 50%;
+   padding: 10px;
+   text-align:center!important
+
+}
+
+
+  #social_icon_footer {
+    padding: 40px 0;
+    background-color: #dedede;
+  }
+  
+  #social_icon_footer a {
+    color: #333;
+  }
+  
+  #social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  #social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+  
+     /* Browser Variations: */
+    
+     -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*  Multicoloured Hover Variations */
+  
+  #social_icon_footer #social-fb:hover{
+    color: #3B5998;
+  }
+  
+  #social_icon_footer #social-tw:hover{
+    color: #4099FF;
+  }
+  
+  #social_icon_footer #social-em:hover{
+    color: #f39c12;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
