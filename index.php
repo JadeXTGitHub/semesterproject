@@ -17,22 +17,7 @@
 
     <!-- Bootstrap for Media Footer -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-   
-<script>
-
-      //sticky navbar javascript -->
-window.onscroll = function() {myFunction()};
-var topnav = document.getElementById("topnav");
-var sticky = topnav.offsetTop;
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    topnav.classList.add("sticky")
-  } else {
-    topnav.classList.remove("sticky");
-  }
-}
  
-</script>
  
   </head>
 
