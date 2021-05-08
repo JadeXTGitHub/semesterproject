@@ -22,7 +22,6 @@
 
 <!-- Jennifer Thomas -->
 <div class="center padding-large white xlarge wide animate-opacity">
-  <name>
     Hello, My name is .....
     <span>
       JENNIFER THOMAS
@@ -64,7 +63,7 @@
 <br>
 <br>
 </div>
-    </div>
+
 
 <!-- Background image 3 container BLOG -->
 <div class="bgimg3 display-container opacity-min" id="blog">
@@ -139,10 +138,6 @@
       </script>
       
 
-
-</body>
-
-
 <!-- Footer -->
 <section id="social_icon_footer">
     <div class="container">
@@ -153,3 +148,4 @@
         </div>
     </div>
     </section>
+    </body>
