@@ -2,7 +2,7 @@
 
 html, body {
   background: #ccc;
-  font-family: Quicksand, Arial, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   color: #444;
 }
@@ -66,6 +66,7 @@ h4 span.dates {
 .topnav {
     background-color: rgb(70, 69, 69);
     overflow: hidden;
+    color: white;
      }
   
   /* Style for the buttons inside the navigation bar */
@@ -115,7 +116,7 @@ p {
 }
 
 a {
-  color: rgb(59, 48, 100);
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
@@ -183,12 +184,10 @@ a:link,
 a:active,
 a:focus,
 #skills label {
-  color: rgb(67, 0, 129);
+  color: rgb(2, 0, 3);
 }
 
-#professional-experience {
-  position: relative;
-}
+
 
 main input {
   position: absolute;
@@ -204,69 +203,11 @@ main input {
   justify-content: start;
 }
 
-#filters {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
 
-#filters > ul {
-  list-style: none;
-  padding-left: 0;
-  margin: -0.5rem;
-  padding: 0.5rem;
-}
 
-#filters > ul > li > h3 {
-  margin: 0;
-  display: block;
-  text-align: right;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #395;
-  text-transform: uppercase;
-}
-
-#filters > ul > li > h3::before {
-  content: "\2610 ";
-  font-size: 1.2rem;
-}
-
-input:checked ~ div #filters > ul > li > h3::before {
-  content: "\2611 ";
-}
-
-#filters > ul:hover {
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-#filters > ul:hover ul {
-  list-style: none;
-  padding-left: 0;
-  display: block;
-  column-count: 4;
-}
-
-#filters > ul > li > ul {
+#professional-experience {
   position: relative;
-  top: 0;
-  right: 0;
-  display: none;
-  padding: 1rem;
 }
-
-label {
-  cursor: pointer;
-}
-
-input:checked ~ div section.position,
-input:checked ~ div #languages label {
-  opacity: 0.25;
-}
-
-
 
 .center {
     display: block;

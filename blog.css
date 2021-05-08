@@ -82,6 +82,22 @@ h2, h5 {
   position: relative;
   }
 
+  
+/* Blog Imgage style */
+.blogimglt {
+     float: left;
+     padding: 20px;
+  }
+
+  /* Blog Imgage style */
+.blogimgrt {
+  float: right;
+  margin: 5px 20px 0 0;
+  position: relative;
+  top: -2px;
+}
+
+
   /* Left column */
   .leftcolumn {   
     float: left;

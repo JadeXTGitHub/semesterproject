@@ -3,12 +3,24 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+
+    <title>Jennifer Thomas CV</title>
+
+     <!-- Meta -->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="keywords" content="Jennifer Thomas,resume,curriculum vitae,cv" />
+    <meta name="description" content="Jennifer Thomas' Resume" />
+    <meta property="og:title" content="Jennifer Thomas' Resume" />
+
+
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <!-- Bootstrap for Media Footer -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="default.js"></script>
- </head>
+    
+
+  </head>
+
 <body>
   
    <!-- Navigation Sticky -->  
@@ -22,7 +34,6 @@
 
 <!-- Jennifer Thomas -->
 <div class="center padding-large white xlarge wide animate-opacity">
-  <name>
     Hello, My name is .....
     <span>
       JENNIFER THOMAS
@@ -36,7 +47,7 @@
   </div>
 </div>
 
-<!-- Container 2 ABOUT ME-->
+<!-- Container 2 ABOUT ME -->
 <div class="content display-container padding-5" id="about">
     <h1 class="center">MEET ME</h1>
     <p class="center"><em>Technology and Cybersecurity are my passion</em></p>
@@ -49,8 +60,8 @@
       Certifications: Certified Ethical Hacker (CEH), Certified Information Security Manager (CISM)</p> 
     </div>
   
-<!-- Background image 2 container RESUME-->
-<div class="bgimg2 display-container opacity-min" id="resume">
+<!-- Background image 2 container RESUME -->
+<div class="bgimg1 display-container opacity-min" id="resume">
     <div class="display-middle">
       <span class="xxlarge text-white wide">RESUME</span>
       </div>
@@ -60,7 +71,7 @@
 <div class="content display-container padding-5">
   <br> 
     <!-- Resume download button -->
-<a href="resume.html" target="_blank" class="buttonDownload">Check out my RESUME</a>
+<a href="resume.html" target="_blank" class="buttonResume">Check out my RESUME</a>
 <br>
 <br>
 </div>
@@ -73,7 +84,7 @@
     </div>
   </div>
 
-<!--Container 4 BLOG -->
+<!-- Container 4 BLOG -->
 <div class="content display-container padding-5">
       </div>
 
@@ -82,7 +93,7 @@
     <section class="blogcards-wrapper">
       <div class="blogcard-grid-space">
         <div class="num">01</div>
-        <a class= "blogcard" href="blog/" style="background-image: url('cloudy.jpg')">
+        <a class= "blogcard" href="blog.html" style="background-image: url('cloudy.jpg')">
           <div>
             <h1>Cloudy with a chance of SECURITY</h1>
             <p>The threat landscape is constantly changing ... </p>
@@ -95,7 +106,7 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">02</div>
-        <a class="blogcard" href="blog/" style="background-image: url('house.jpeg')">
+        <a class="blogcard" href="blog.html"  style="background-image: url('house.jpeg')">
           <div>
             <h1>Taking a TOLL</h1>
             <p>My experiance building a Toll Brothers Home</p>
@@ -108,9 +119,9 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">03</div>
-        <a class="blogcard" href="blog/" style="background-image: url('glass.jpeg')">
+        <a class="blogcard" href="blog.html" style="background-image: url('glass.jpeg')">
           <div>
-            <h1>My pandemic glass is more than half FULL</h1>
+            <h1>My pandemic glass is half FULL</h1>
             <p>Positive changes in the face of COVID</p>
             <div class="date">April 15, 2021</div>
             <div class="tags">
@@ -122,23 +133,22 @@
     </section>
 
 
-<!-- JavaScript for sticky topnav -->
     <script>
-      window.onscroll = function() {myFunction()};
-      
-      var topnav = document.getElementById("topnav");
-      var sticky = navbar.offsetTop;
-      
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          topnav.classList.add("sticky")
-        } else {
-          topnav.classList.remove("sticky");
-        }
-      }
-      </script>
-      
 
+      //sticky navbar javascript //
+window.onscroll = function() {myFunction()};
+var topnav = document.getElementById("topnav");
+var sticky = topnav.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    topnav.classList.add("sticky")
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+ 
+</script>
+ 
 
 </body>
 
