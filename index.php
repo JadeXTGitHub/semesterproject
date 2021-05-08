@@ -57,7 +57,7 @@
 
 <!-- Container 3 RESUME -->
 <div class="content display-container padding-5">
-
+<br>
     <!-- Resume download button -->
 <a href="resume.html" target="_blank" class="buttonResume">Check out my RESUME</a>
 <br>
@@ -81,7 +81,7 @@
     <section class="blogcards-wrapper">
       <div class="blogcard-grid-space">
         <div class="num">01</div>
-        <a class= "blogcard" href="blog/" style="background-image: url('cloudy.jpg')">
+        <a class= "blogcard" href="blog.html" style="background-image: url('cloudy.jpg')">
           <div>
             <h1>Cloudy with a chance of SECURITY</h1>
             <p>The threat landscape is constantly changing ... </p>
@@ -94,7 +94,7 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">02</div>
-        <a class="blogcard" href="blog/" style="background-image: url('house.jpeg')">
+        <a class="blogcard" href="blog.html" style="background-image: url('house.jpeg')">
           <div>
             <h1>Taking a TOLL</h1>
             <p>My experiance building a Toll Brothers Home</p>
@@ -107,7 +107,7 @@
       </div>
       <div class="blogcard-grid-space">
         <div class="num">03</div>
-        <a class="blogcard" href="blog/" style="background-image: url('glass.jpeg')">
+        <a class="blogcard" href="blog.html" style="background-image: url('glass.jpeg')">
           <div>
             <h1>My pandemic glass is more than half FULL</h1>
             <p>Positive changes in the face of COVID</p>
