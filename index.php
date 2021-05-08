@@ -49,7 +49,7 @@
     </div>
   
 <!-- Background image 2 container RESUME-->
-<div class="bgimg2 display-container opacity-min" id="resume">
+<div class="bgimg1 display-container opacity-min" id="resume">
     <div class="display-middle">
       <span class="xxlarge text-white wide">RESUME</span>
       </div>
