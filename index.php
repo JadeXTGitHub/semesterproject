@@ -57,9 +57,9 @@
 
 <!-- Container 3 RESUME -->
 <div class="content display-container padding-5">
-  <br> 
+
     <!-- Resume download button -->
-<a href="resume.html" target="_blank" class="buttonDownload">Check out my RESUME</a>
+<a href="resume.html" target="_blank" class="buttonResume">Check out my RESUME</a>
 <br>
 <br>
 </div>
