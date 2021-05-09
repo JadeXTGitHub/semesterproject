@@ -159,7 +159,7 @@ address {
   color: #666;
 }
 
-#contact {
+#resumecontact {
   text-align: right;
   font-size: 0.9rem;
 }
@@ -240,7 +240,7 @@ input:not(:checked) ~ div #languages label[for]::before {
   content: "";
 }
 
-#contact {
+#resumecontact {
   display: none;
 }
 
@@ -281,7 +281,7 @@ input:not(:checked) ~ div #languages label[for]::before {
   #contact-mini {
     display: none;
   }
-  #contact {
+  #resumecontact {
     display: block;
   }
   #email,
